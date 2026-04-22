@@ -21,7 +21,7 @@ main:
     url: /portfolio/
         
   - title: "闲谈"
-    url: /my-blogs/
+    url: /myblogs/
     
   - title: "CV"
     url: /cv/
