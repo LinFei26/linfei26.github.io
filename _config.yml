@@ -224,7 +224,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  ros2:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -267,7 +267,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: ros2
     values:
       layout: single
       author_profile: true
