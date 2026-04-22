@@ -21,7 +21,7 @@ main:
     url: /portfolio/
         
   - title: "闲谈"
-    url: /year-archive/
+    url: /my-blogs/
     
   - title: "CV"
     url: /cv/
