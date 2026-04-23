@@ -1,23 +1,10 @@
-# Ignore the contents of the _site directory and other cache directories
-_site/
-.sass-cache/
+# Hugo 构建产物
+public/
 
-# Ignore the directory for local files during development
-local/
+# 本地调试
+.hugo_build.lock
+resources/_gen/
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
-/vendor/
-.bundle/
-
-# Ignore folders related to IDEs
-.vscode/
-
-# Ignore files created by MacOS
+# 操作系统
 .DS_Store
+Thumbs.db

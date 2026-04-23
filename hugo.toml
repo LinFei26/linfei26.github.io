@@ -1,0 +1,89 @@
+baseURL = "https://linfei26.github.io/"
+languageCode = "zh-cn"
+title = "LinFei's Blog"
+theme = "PaperMod"   # 默认主题，可随时替换
+
+# 分页设置
+paginate = 10
+
+# 启用 Git 信息（文章最后修改时间）
+enableGitInfo = true
+
+# 代码高亮
+[markup]
+  [markup.highlight]
+    style = "github-dark"       # 代码高亮风格
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true               # 允许 HTML 嵌入（教程需要）
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+# 网站菜单导航
+[menu]
+  [[menu.main]]
+    name = "🤖 机器人"
+    url = "/robot/"
+    weight = 1
+  [[menu.main]]
+    name = "🎮 游戏"
+    url = "/game/"
+    weight = 2
+  [[menu.main]]
+    name = "💬 博客"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 5
+
+# 多内容类型输出配置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]  # JSON 用于搜索索引
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# 站点参数（PaperMod 主题相关，换主题后按需调整）
+[params]
+  author = "LinFei"
+  description = "LinFei 的个人空间 — 机器人技术、游戏设计、日常随笔"
+  keywords = ["ROS2", "机器人", "游戏设计", "博客"]
+  
+  # PaperMod 首页模式：profile / home / list
+  homeInfoParams = { Title = "Hi, I'm LinFei 👋", Content = "🤖 **机器人** — ROS2 知识分享、开源项目学习、经典算法研究\n\n🎮 **游戏** — 探索游戏设计，从零开始学习\n\n💬 **博客** — 闲聊杂谈，想到什么聊什么" }
+  
+  # 显示阅读时间和字数
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true  # 代码一键复制
+  ShowToc = true              # 文章目录
+  TocOpen = false             # 目录默认折叠
+  
+  # 社交链接
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/LinFei26"
+  [[params.socialIcons]]
+    name = "bilibili"
+    url = "https://space.bilibili.com/"   # 填入你的 B站 UID
+
+  # 搜索（Fuse.js 本地搜索）
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
