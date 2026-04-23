@@ -98,6 +98,12 @@ robotics_category:
   Porjects:
     title:'开源项目研究'
 
+#给 game 机器人添加子分类
+game_category:
+  godot:
+    title:'Godot'
+
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
@@ -231,10 +237,13 @@ collections:
   robotics:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+#  portfolio:
+#    output: true
+#    permalink: /:collection/:path/
+# talks:
+#   output: true
+#   permalink: /:collection/:path/
+  game:
     output: true
     permalink: /:collection/:path/
   myblogs:
@@ -253,7 +262,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: 
       related: true
   # _pages
   - scope:
@@ -278,7 +287,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: 
       comments: true
   # _portfolio
   - scope:
