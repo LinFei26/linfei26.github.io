@@ -102,36 +102,7 @@ $(document).ready(function () {
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
 
-  // Enable the sticky footer
-  var bumpIt = function () {
-    var bodyHeight = $("body").outerHeight();
-    var viewportHeight = $(window).height();
-    var footerHeight = $(".page__footer").outerHeight(true);
-    
-    if (bodyHeight < viewportHeight) {
-      $("body").css("min-height", viewportHeight + "px");
-      $("body").css("padding-bottom", "0");
-      $("body").css("margin-bottom", "0");
-    } else {
-      $("body").css("min-height", "");
-      $("body").css("padding-bottom", "0");
-      $("body").css("margin-bottom", "0");
-    }
-  };
-  
-  $(window).resize(function () {
-    didResize = true;
-  });
-  
-  setInterval(function () {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }
-  }, 250);
-  
-  var didResize = false;
-  bumpIt();
+
 
   // FitVids init
   fitvids();
