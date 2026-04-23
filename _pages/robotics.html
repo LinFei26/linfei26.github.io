@@ -1,0 +1,38 @@
+---
+layout: archive
+title: "机器人相关"
+permalink: /robotics/
+author_profile: true
+---
+
+
+{% include base_path %}
+
+<!-- 
+    New style rendering if robotics categories are defined
+    在_config.yml 中设置 robotics_category,里面定义了小分类。
+    然后在robotics文章中定义category属性，属性与小分类名字匹配到的，就出现在对应的分类下。
+    显示分类标题：每个分类第一次匹配时显示分类标题和分隔线
+    渲染单篇论文：使用 archive-single.html 模板
+-->
+{% if site.robotics_category %}
+  {% for category in site.robotics_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.robotics reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.robotics reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
