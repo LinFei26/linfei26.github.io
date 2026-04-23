@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Snippets on LinFei&#39;s Blog</title>
+    <link>http://localhost:1313/categories/snippets/</link>
+    <description>Recent content in Snippets on LinFei&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 23 Apr 2026 21:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROS2 话题订阅 - 最简模板</title>
+      <link>http://localhost:1313/snippets/ros2-subscriber-template/</link>
+      <pubDate>Thu, 23 Apr 2026 21:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/snippets/ros2-subscriber-template/</guid>
+      <description>ROS2 Python Subscriber 最简实现，直接复用</description>
+    </item>
+  </channel>
+</rss>

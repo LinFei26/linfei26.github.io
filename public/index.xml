@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LinFei&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on LinFei&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 23 Apr 2026 22:30:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么我想做游戏</title>
+      <link>http://localhost:1313/game/why-game-design/</link>
+      <pubDate>Thu, 23 Apr 2026 22:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/game/why-game-design/</guid>
+      <description>一个机器人程序员的游戏设计入门之路。</description>
+    </item>
+    <item>
+      <title>ROS2 入门：5分钟搭建第一个节点</title>
+      <link>http://localhost:1313/tutorials/ros2-first-node/</link>
+      <pubDate>Thu, 23 Apr 2026 21:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tutorials/ros2-first-node/</guid>
+      <description>从零开始，在 Ubuntu 上安装 ROS2 Humble 并运行第一个 Python 节点。</description>
+    </item>
+    <item>
+      <title>ROS2 话题订阅 - 最简模板</title>
+      <link>http://localhost:1313/snippets/ros2-subscriber-template/</link>
+      <pubDate>Thu, 23 Apr 2026 21:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/snippets/ros2-subscriber-template/</guid>
+      <description>ROS2 Python Subscriber 最简实现，直接复用</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 23 Apr 2026 21:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;关于我&#34;&gt;关于我&lt;/h1&gt;
+&lt;p&gt;你好，我是 &lt;strong&gt;LinFei&lt;/strong&gt;，B站 UP 主「林非」。&lt;/p&gt;
+&lt;p&gt;这个站点是我的个人空间，记录三块内容：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-机器人&#34;&gt;🤖 机器人&lt;/h3&gt;
+&lt;p&gt;专注于 &lt;strong&gt;ROS2&lt;/strong&gt; 技术分享，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ROS2 从零基础到进阶的系统性知识&lt;/li&gt;
+&lt;li&gt;开源项目的学习笔记与实践&lt;/li&gt;
+&lt;li&gt;机器人领域的经典算法研究&lt;/li&gt;
+&lt;li&gt;具身智能前沿动态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-游戏&#34;&gt;🎮 游戏&lt;/h3&gt;
+&lt;p&gt;探索游戏设计的世界：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学习游戏机制与系统设计&lt;/li&gt;
+&lt;li&gt;Roguelike 策略卡牌游戏原型开发&lt;/li&gt;
+&lt;li&gt;从零开始的游戏设计思考&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-博客&#34;&gt;💬 博客&lt;/h3&gt;
+&lt;p&gt;闲聊杂谈，随心记录：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;日常感悟、读书笔记&lt;/li&gt;
+&lt;li&gt;技术之外的想法&lt;/li&gt;
+&lt;li&gt;想到什么聊什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;联系我&#34;&gt;联系我&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/LinFei26&#34;&gt;LinFei26&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;B站: &lt;a href=&#34;https://space.bilibili.com/&#34;&gt;林非&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>站点开通，先打个招呼</title>
+      <link>http://localhost:1313/blog/hello-world/</link>
+      <pubDate>Thu, 23 Apr 2026 21:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/blog/hello-world/</guid>
+      <description>LinFei 的个人空间上线了，简单聊聊这个站点会写些什么。</description>
+    </item>
+  </channel>
+</rss>
