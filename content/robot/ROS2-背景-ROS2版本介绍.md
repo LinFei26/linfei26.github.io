@@ -19,21 +19,21 @@ tocOpen: false    #目录默认折叠
 
 ROS2发展至今，已经发行多个版本了，让我们一起看一下
 
-# 1. **什么是发行**
+# 1. **什么是发行版**
   ROS 发行版是一组有版本的 ROS 包。这些类似于 Linux 发行版（例如 Ubuntu）。ROS 发行版的目的是让开发者能够在相对稳定的代码库中工作，直到准备好推进所有内容。因此，一旦发行版发布，我们会尽量限制修改，仅限于修复漏洞和核心包（所有在 ros-desktop-full 以下的内容）的非破坏性改进。
 # 2. **发行版明细**
   ## 2.1 **常规发行版**
-  | 发行版   | 发行日期   | logo   |终止日期   |
-  |---------|---------|---------|---------|
-  | Kilted Kaiju   | May 23, 2025   |  <img src="/images/Kaijulogo.png"  style="height: 40px; vertical-align: middle;">  |December 2026   |
-  | Jazzy Jalisco   | May 23, 2024   | <img src="/images/jazzy-small.png"  style="height: 40px; vertical-align: middle;">   |May 2029   |
-  | Iron Irwini    | 	May 23, 2023   | <img src="/images/iron-small.png"  style="height: 40px; vertical-align: middle;">   |December 4, 2024   |
-  | Humble Hawksbill   | May 23, 2022   |  <img src="/images/humble-small.png"  style="height: 40px; vertical-align: middle;">   |May 2027  | 
-  | Galactic Geochelone   | May 23, 2021   | <img src="/images/galactic-small.png"  style="height: 40px; vertical-align: middle;">   |December 9, 2022   | 
-  | Foxy Fitzroy   | June 5, 2020   | <img src="/images/foxy-small.png"  style="height: 40px; vertical-align: middle;">   |June 20, 2023   |      
+  | 发行版   | 发行日期   | logo   |终止日期   |支持周期   |
+  |---------|---------|---------|---------|---------|
+  | Kilted Kaiju   | May 23, 2025   |  <img src="/images/Kaijulogo.png"  style="height: 40px; vertical-align: middle;">  |December 2026   |1年   |
+  | Jazzy Jalisco   | May 23, 2024   | <img src="/images/jazzy-small.png"  style="height: 40px; vertical-align: middle;">   |May 2029   |5年   |
+  | Iron Irwini    | 	May 23, 2023   | <img src="/images/iron-small.png"  style="height: 40px; vertical-align: middle;">   |December 4, 2024   |1年   |
+  | Humble Hawksbill   | May 23, 2022   |  <img src="/images/humble-small.png"  style="height: 40px; vertical-align: middle;">   |May 2027  | 5年   |
+  | Galactic Geochelone   | May 23, 2021   | <img src="/images/galactic-small.png"  style="height: 40px; vertical-align: middle;">   |December 9, 2022   | 1年   |
+  | Foxy Fitzroy   | June 5, 2020   | <img src="/images/foxy-small.png"  style="height: 40px; vertical-align: middle;">   |June 20, 2023   |3年   |
 ---
 
-  发行版分为短期版本和长周期支持版本。短期支持一年，长周期支持5年
+  发行版分为短周期支持版本和长周期支持版本。短期支持一年，长周期支持5年
 
   每年5月23日会发布新的ROS2版本
   ## 2.2 **即将发行**
