@@ -34,17 +34,21 @@ enableGitInfo = true
     url = "/game/"
     weight = 2
   [[menu.main]]
+    name = "💻 泛技术"
+    url = "/tech/"
+    weight = 3  
+  [[menu.main]]
     name = "💬 博客"
     url = "/blog/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = "标签"
     url = "/tags/"
-    weight = 4
+    weight = 5
   [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 # 多内容类型输出配置
 [outputs]
@@ -59,7 +63,7 @@ enableGitInfo = true
   keywords = ["ROS2", "机器人", "游戏设计", "博客"]
   
   # PaperMod 首页模式：profile / home / list
-  homeInfoParams = { Title = "林非 👋", Content = "🤖 **机器人** — ROS2 知识分享、开源项目学习、经典算法研究\n\n🎮 **游戏** — 探索游戏设计，从零开始学习\n\n💬 **博客** — 闲聊杂谈，想到什么聊什么" }
+  homeInfoParams = { Title = "林非 👋", Content = "🤖 **机器人** — ROS2 知识分享、开源项目学习、经典算法研究\n\n🎮 **游戏** — 探索游戏设计，从零开始学习\n\n💻 **泛技术** — 计算机、编程、产品思考与技术随笔\n\n💬 **博客** — 闲聊杂谈，想到什么聊什么" }
   
   # 显示阅读时间和字数
   ShowReadingTime = true
