@@ -90,7 +90,7 @@ enableGitInfo = true
 
   # Favicon 配置
   [params.assets]
-    favicon = "/images/LOGO.png"           # 主图标
+    favicon = "/LOGO.ico"           # 主图标
     favicon16x16 = "/images/LOGO.png"      # 16x16 尺寸
     favicon32x32 = "/images/LOGO.png"      # 32x32 尺寸
     apple_touch_icon = "/images/LOGO.png"  # Apple 设备图标
