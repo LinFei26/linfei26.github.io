@@ -95,5 +95,5 @@ enableGitInfo = true
     favicon32x32 = "/images/LOGO.png"      # 32x32 尺寸
     apple_touch_icon = "/images/LOGO.png"  # Apple 设备图标
     safari_pinned_tab = "/images/LOGO.png" # Safari 固定标签页图标
-  #  theme_color = "#2e2e33"                     # 主题颜色
-  #  msapplication_TileColor = "#2e2e33"         # Windows 磁贴颜色
+    theme_color = "#2e2e33"                     # 主题颜色
+    msapplication_TileColor = "#2e2e33"         # Windows 磁贴颜色
