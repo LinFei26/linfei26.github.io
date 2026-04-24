@@ -25,7 +25,7 @@ ROS2发展至今，已经发行多个版本了，让我们一起看一下
 
     | 发行版   | 发行日期   | logo   |终止日期   |
     |---------|---------|---------|---------|
-    | Kilted Kaiju   | May 23, 2025   |  < img src="/images/kaijulogo.png" alt="Kaiju logo" style="height: 40px; vertical-align: middle;" >  |December 2026   |
+    | Kilted Kaiju   | May 23, 2025   |  <img src="/images/Kaijulogo.png"  style="height: 40px; vertical-align: middle;">  |December 2026   |
     | Jazzy Jalisco   | May 23, 2024   | 内容6   |May 2029   |
     | Iron Irwini    | 	May 23, 2023   | 内容6   |December 4, 2024   |
     | Humble Hawksbill   | May 23, 2022   | 内容6   |May 2027  | 
