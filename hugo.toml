@@ -1,6 +1,6 @@
 baseURL = "https://linfei26.github.io/"
 languageCode = "zh-cn"
-title = "LinFei's Blog"
+title = "好奇改变世界"
 theme = "PaperMod"   # 默认主题，可随时替换
 
 # 分页设置
@@ -55,11 +55,11 @@ enableGitInfo = true
 # 站点参数（PaperMod 主题相关，换主题后按需调整）
 [params]
   author = "LinFei"
-  description = "LinFei 的个人空间 — 机器人技术、游戏设计、日常随笔"
+  description = "林非的个人空间 — 机器人技术、游戏设计、日常随笔"
   keywords = ["ROS2", "机器人", "游戏设计", "博客"]
   
   # PaperMod 首页模式：profile / home / list
-  homeInfoParams = { Title = "Hi, I'm LinFei 👋", Content = "🤖 **机器人** — ROS2 知识分享、开源项目学习、经典算法研究\n\n🎮 **游戏** — 探索游戏设计，从零开始学习\n\n💬 **博客** — 闲聊杂谈，想到什么聊什么" }
+  homeInfoParams = { Title = "林非 👋", Content = "🤖 **机器人** — ROS2 知识分享、开源项目学习、经典算法研究\n\n🎮 **游戏** — 探索游戏设计，从零开始学习\n\n💬 **博客** — 闲聊杂谈，想到什么聊什么" }
   
   # 显示阅读时间和字数
   ShowReadingTime = true
@@ -87,3 +87,13 @@ enableGitInfo = true
     threshold = 0.4
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
+
+  # Favicon 配置
+  [params.assets]
+    favicon = "/images/LOGO.png"           # 主图标
+    favicon16x16 = "/images/LOGO.png"      # 16x16 尺寸
+    favicon32x32 = "/images/LOGO.png"      # 32x32 尺寸
+    apple_touch_icon = "/images/LOGO.png"  # Apple 设备图标
+    safari_pinned_tab = "/images/LOGO.png" # Safari 固定标签页图标
+  #  theme_color = "#2e2e33"                     # 主题颜色
+  #  msapplication_TileColor = "#2e2e33"         # Windows 磁贴颜色
