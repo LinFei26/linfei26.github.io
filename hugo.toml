@@ -76,7 +76,7 @@ enableGitInfo = true
     url = "https://github.com/LinFei26"
   [[params.socialIcons]]
     name = "bilibili"
-    url = "https://space.bilibili.com/"   # 填入你的 B站 UID
+    url = "https://space.bilibili.com/265677658"   # 填入你的 B站 UID
 
   # 搜索（Fuse.js 本地搜索）
   [params.fuseOpts]
