@@ -1,0 +1,57 @@
+# config/_default/menus.zh-cn.toml
+
+# 主菜单（支持多级嵌套）
+[[main]]
+  name = "🤖 机器人"
+  pageRef = "robot"
+  weight = 10
+
+[[main]]
+  name = "ROS2 教程"
+  pageRef = "robot/ros2-tutorials"
+  parent = "🤖 机器人"
+  weight = 1
+
+[[main]]
+  name = "ROS2 基础"
+  pageRef = "robot/ros2-basics"
+  parent = "ROS2 教程"
+  weight = 1
+
+[[main]]
+  name = "🎮 游戏"
+  pageRef = "game"
+  weight = 20
+
+[[main]]
+  name = "💻 泛技术"
+  pageRef = "tech"
+  weight = 30
+
+[[main]]
+  name = "💬 博客"
+  pageRef = "blog"
+  weight = 40
+
+[[main]]
+  name = "标签"
+  pageRef = "tags"
+  weight = 50
+
+[[main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 60
+
+# 页脚菜单
+[[footer]]
+  name = "GitHub"
+  url = "https://github.com/LinFei26"
+  weight = 1
+  params.icon = "github"
+
+[[footer]]
+  name = "B站"
+  url = "https://space.bilibili.com/265677658"
+  weight = 2
+  params.icon = "youtube"

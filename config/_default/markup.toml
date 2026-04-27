@@ -1,0 +1,17 @@
+# config/_default/markup.toml
+
+[goldmark]
+  [goldmark.renderer]
+    unsafe = true  # 允许 HTML 嵌入
+
+[highlight]
+  codeFences = true
+  lineNos = true
+  lineNumbersInTable = true
+  noClasses = false
+  style = "github-dark"
+
+[tableOfContents]
+  endLevel = 4
+  ordered = false
+  startLevel = 2

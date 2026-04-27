@@ -1,7 +1,7 @@
 baseURL = "https://linfei26.github.io/"
 languageCode = "zh-cn"
 title = "好奇改变世界"
-theme = "PaperMod"   # 默认主题，可随时替换
+theme = "blowfish"   # 默认主题，可随时替换
 
 # 分页设置
 paginate = 10
