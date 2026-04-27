@@ -32,11 +32,11 @@ showTableOfContents = true
   layout = "hero"  # page/profile/custom
   showRecent = true
   recentLimit = 5
-  homepageImage="homepage1.png"
+  homepageImage="homepage2.png"
 
 # 作者信息
 [author]
-  name = "LinFei"
+  name = "林非"
   image = "author.png"
   headline = "好奇改变世界"
   bio = "林非的个人空间 — 机器人技术、游戏设计、日常随笔"
