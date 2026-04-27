@@ -36,7 +36,7 @@ showTableOfContents = true
 # 作者信息
 [author]
   name = "LinFei"
-  image = "/assets/author.png"
+  image = "author.png"
   headline = "好奇改变世界"
   bio = "林非的个人空间 — 机器人技术、游戏设计、日常随笔"
   
