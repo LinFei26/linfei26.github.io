@@ -34,6 +34,9 @@ showTableOfContents = true
   recentLimit = 5
   homepageImage="homepage3.png"
 
+# 全局背景图配置
+backgroundImage ="/assets/homepage3.png"
+
 # 作者信息
 [author]
   name = "林非"
