@@ -29,9 +29,10 @@ showTableOfContents = true
 
 # 首页配置
 [homepage]
-  layout = "page"  # page/profile/custom
+  layout = "hero"  # page/profile/custom
   showRecent = true
   recentLimit = 5
+  homepageImage="homepage1.png"
 
 # 作者信息
 [author]
