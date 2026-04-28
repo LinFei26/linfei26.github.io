@@ -3,7 +3,7 @@ title: "话题通信介绍"
 date: 2026-04-28
 draft: false
 description: "什么是话题通信"          # 摘要（显示在列表页）
-tags: ["ROS2","话题","通信”]                  # 例如：["ROS2", "机器人"]
+tags: ["ROS2","话题","通信"]                  # 例如：["ROS2","机器人"]
 categories: ["ROS2"]
 cover:
   image: ""
@@ -11,7 +11,6 @@ cover:
   caption: ""    #说明文字
   relative: false   #false: 表示使用绝对路径或外部链接，true: 表示使用相对路径（相对于当前页面）
 author: "林非"
-
 
 ---
 
