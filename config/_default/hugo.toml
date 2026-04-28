@@ -24,3 +24,9 @@ defaultContentLanguage = "zh-cn"
       displayName = "中文"
       isoCode = "zh-cn"
       rtl = false
+  
+# 分类法配置
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
