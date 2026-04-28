@@ -11,13 +11,12 @@ cover:
   caption: ""    #说明文字
   relative: false   #false: 表示使用绝对路径或外部链接，true: 表示使用相对路径（相对于当前页面）
 author: "林非"
-showToc: true    #显示目录
-tocOpen: false    #目录默认折叠
+
 ---
 
 <!--more-->
 
-# 1.架构总览
+## 1.架构总览
 <img src="\images\ROS2-structure.png">
 
 通过这张图，我们要清楚自己程序的运行思路，最上面的是我们写的程序和系统自带的程序。程序会通过封装好的C++或者python接口，进行传递，一直传递到DDS层。发布者在DDS层发出信息，订阅者就会收到相应的信息，再向上传递，反映到对应的程序里。
@@ -62,6 +61,6 @@ echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 所有基于RCL开发的程序，都在这一层。比如自带的海龟模拟器，后续自开发的程序。或者rviz2 ，QT等
 
 
-# 2. 需要注意
+## 2. 需要注意
 1. 有一类特殊的包，叫ros_to_dds，是从用户应用层直接与DDS层联通
 2. 
