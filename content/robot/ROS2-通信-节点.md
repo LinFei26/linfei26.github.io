@@ -5,6 +5,9 @@ draft: false
 description: "什么是节点，基本结构是什么"          # 摘要（显示在列表页）
 tags: ["ROS2","节点"]                  # 例如：["ROS2", "机器人"]
 categories: ["ROS2"]
+series: ["ROS2 通信基础"]
+series_order: 1
+weight: 1
 cover:
   image: ""
   alt: ""    #图片等效文字

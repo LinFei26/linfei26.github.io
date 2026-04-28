@@ -35,11 +35,14 @@ showTableOfContents = true
   showReadingTime = true      # 显示阅读时间
   showWordCount = true        # 显示字数统计
   showAuthorsBadges = false   # 不显示作者徽章
-
+  showRelatedContent = true   # 显示相关文章（基于标签）
+  relatedContentLimit = 5     # 相关文章数量限制
+  showSeries = true           # 显示系列信息（如果主题支持）
+  
 # 目录行为配置
 [tableOfContents]
   open = true  # true=默认展开，false=默认折叠
-  
+
 # 首页配置
 [homepage]
   layout = "background"  # page/profile/custom

@@ -1,10 +1,13 @@
 ---
-title: "话题通信介绍"
+title: "ROS2 话题（Topic）通信完全指南"
 date: 2026-04-28
 draft: false
 description: "什么是话题通信"          # 摘要（显示在列表页）
 tags: ["ROS2","话题","通信"]                  # 例如：["ROS2","机器人"]
 categories: ["ROS2"]
+series: ["ROS2 通信基础"]
+series_order: 2
+weight: 2
 cover:
   image: ""
   alt: ""    #图片等效文字
