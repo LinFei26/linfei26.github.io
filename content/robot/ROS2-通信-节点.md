@@ -11,8 +11,6 @@ cover:
   caption: ""    #说明文字
   relative: false   #false: 表示使用绝对路径或外部链接，true: 表示使用相对路径（相对于当前页面）
 author: "林非"
-showToc: true    #显示目录
-tocOpen: false    #目录默认折叠
 ---
 
 <!--more-->

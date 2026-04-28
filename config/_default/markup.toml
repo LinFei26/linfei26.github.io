@@ -12,6 +12,7 @@
   style = "github-dark"
 
 [tableOfContents]
+  
+  startLevel = 2
   endLevel = 4
   ordered = false
-  startLevel = 2
