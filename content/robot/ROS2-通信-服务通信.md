@@ -78,7 +78,7 @@ int64 b
 int64 sum
 ```
 
-- `---` 上方是请求结构，下方是响应结构。
+- `---` 上方是请求结构，下方是响应结构。表示客户端将a 和 b 发给服务端，服务端返回sum。
 
 ### 4.2 查看服务接口
 
@@ -155,9 +155,9 @@ import sys
 class AddTwoIntsClient(Node):
     def __init__(self):
         super().__init__('add_two_ints_client')
-        # 创建客户端：服务类型，服务名
+        # 创建客户端：服务名，服务类型
         self.client = self.create_client(AddTwoInts, 'add_two_ints')
-        # 等待服务可用（可选，但推荐）
+        # 等待服务可用（可选，但推荐）等待服务端响应
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('等待服务...')
         self.get_logger().info('服务已准备好')
@@ -175,7 +175,8 @@ def main(args=None):
     rclpy.init(args=args)
     node = AddTwoIntsClient()
 
-    # 解析命令行参数（假设传入两个整数）
+    # 解析命令行参数（假设传入两个整数），就是模拟在命令行上，第一个位置[0]那里输入脚本名称，第二、三个位置[1]\[2]那里，输入两个整数。
+    # 这里是一个三元表达式，格式是 ：值A if 条件 else 值B
     a = int(sys.argv[1]) if len(sys.argv) > 1 else 2
     b = int(sys.argv[2]) if len(sys.argv) > 2 else 3
 

@@ -7,18 +7,6 @@
   weight = 10
 
 [[main]]
-  name = "ROS2 教程"
-  pageRef = "robot/ros2-tutorials"
-  parent = "🤖 机器人"
-  weight = 1
-
-[[main]]
-  name = "ROS2 基础"
-  pageRef = "robot/ros2-basics"
-  parent = "ROS2 教程"
-  weight = 1
-
-[[main]]
   name = "🎮 游戏"
   pageRef = "game"
   weight = 20
@@ -54,4 +42,4 @@
   name = "B站"
   url = "https://space.bilibili.com/265677658"
   weight = 2
-  params.icon = "youtube"
+  params.icon = "bilibili"
