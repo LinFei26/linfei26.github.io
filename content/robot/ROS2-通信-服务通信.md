@@ -157,7 +157,7 @@ class AddTwoIntsClient(Node):
         super().__init__('add_two_ints_client')
         # 创建客户端：服务名，服务类型
         self.client = self.create_client(AddTwoInts, 'add_two_ints')
-        # 等待服务可用（可选，但推荐）等待服务端响应
+        # 等待服务可用（可选，但推荐）等待服务端响应。client.wait_for_service是个检查对应的clinet的服务有没有好的函数。
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('等待服务...')
         self.get_logger().info('服务已准备好')
@@ -170,6 +170,7 @@ class AddTwoIntsClient(Node):
         # 异步调用服务（返回 future 对象）
         self.future = self.client.call_async(request)
         # 可以添加回调或者直接等待 future 完成（见 main 函数）
+    
 
 def main(args=None):
     rclpy.init(args=args)
@@ -182,7 +183,7 @@ def main(args=None):
 
     node.send_request(a, b)
 
-    # 让节点运行直到收到响应（也可以使用回调）
+    # 让节点运行，每0.1秒确认一次，直到收到响应。这样写不会阻塞进程，时间间隔的时候，系统可以正常执行while的其他内容。直到满足future.done，进到if判断里，执行完程序，break出while。（也可以用回调函数的方式，future.add_done_callback(callback)，来实现不阻塞进程）
     while rclpy.ok():
         rclpy.spin_once(node, timeout_sec=0.1)
         if node.future.done():
@@ -209,6 +210,8 @@ if __name__ == '__main__':
   - 在循环中调用 `rclpy.spin_once()` 并定期检查 `future.done()`。
   - 或者为 future 添加回调：`future.add_done_callback(callback)`。
 
+- 详细可见：[future的用法](ROS2-编程-future的用法.md)
+
 ### 5.3 同步客户端（简单写法）
 
 如果你只想写一个小脚本，可以用 **`call(request)`**（同步阻塞），但不推荐在复杂的多节点程序中使用，因为它会阻塞执行器。
@@ -232,7 +235,7 @@ ros2 service type /add_two_ints
 # 查看服务接口详情
 ros2 service find example_interfaces/srv/AddTwoInts
 
-# 手动调用服务（测试用）
+# 手动调用服务（测试用） call 服务名 接口名 request
 ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 5, b: 3}"
 ```
 
