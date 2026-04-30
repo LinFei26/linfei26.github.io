@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+title: "title"
 date: {{ .Date }}
 draft: false
 description: ""          # 摘要（显示在列表页）

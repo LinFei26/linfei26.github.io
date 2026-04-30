@@ -1,11 +1,12 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | title }}"
-date: {{ .Date }}
+title: "站点开通，先打个招呼"
+date: 2026-04-23T21:00:00+08:00
 draft: false
-description: ""          # 摘要（可选）
-tags: []                  # 例如：["随笔", "生活"]
+description: "LinFei 的个人空间上线了，简单聊聊这个站点会写些什么。"
+tags: ["随笔"]
 categories: ["blog"]
-author: "林非"
+author: "LinFei"
+showToc: false
 ---
 
 正文从这里开始，想到什么写什么...
