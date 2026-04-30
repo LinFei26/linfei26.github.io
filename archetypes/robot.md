@@ -11,8 +11,7 @@ cover:
   caption: ""
   relative: false
 author: "LinFei"
-showToc: true
-tocOpen: false
+
 ---
 
 <!--more-->
