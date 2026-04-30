@@ -43,3 +43,9 @@
   url = "https://space.bilibili.com/265677658"
   weight = 2
   params.icon = "bilibili"
+
+[[footer]]
+  name = "邮箱"
+  url = "tjuguorl@163.com"
+  weight = 3
+  params.icon = "Email"

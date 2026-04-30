@@ -46,3 +46,4 @@ draft: false
 
 - GitHub: [LinFei26](https://github.com/LinFei26)
 - B站: [林非](https://space.bilibili.com/265677658)
+- 邮箱： [tjuguorl@163.com](tjuguorl@163.com)

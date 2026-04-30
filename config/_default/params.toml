@@ -69,9 +69,6 @@ backgroundImage ="/assets/homepage3.png"
   name = "bilibili"
   url = "https://space.bilibili.com/265677658"
 
-[[socialIcons]]
-  name = "Email"
-  url = "tjuguorl@163.com"
 
 # SEO 关键词
 keywords = ["ROS2", "机器人", "游戏设计", "博客"]
